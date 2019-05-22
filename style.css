@@ -1,15 +1,30 @@
+body {
+  font-family: 'Helvetica', 'Arial', sans-serif;
+  color: #555;
+  line-height: 1.5;
+  padding: 1em;
+  margin: 0 auto;
+  max-width: 50em;
+}
+
+h1, h2, h3 {
+  color: #333;
+}
+
 h1 {
-  color: blue;
+  margin-top: 1em;
+  padding-top: 3em;
 }
 
-#jatkuu {
-  color: red;
-}
-
-.highlight {
-  color: darkred;
+img {
+  position: absolute;
 }
 
 #listHighlight {
-  color: pink;
+  position: absolute;
+  left: 600px;
+}
+
+.second-block {
+  margin: 30em 0 3em 0;
 }
